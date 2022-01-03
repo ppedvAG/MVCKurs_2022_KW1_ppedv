@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ed558b92-f570-4ad6-b7aa-3d4e83dd8858": {
+      "ProjectGuid": "ed558b92-f570-4ad6-b7aa-3d4e83dd8858",
+      "DisplayName": "ConsoleAppWithServiceCollectionServiceProvider",
+      "ColorIndex": 0
+    },
+    "22125904-63b6-4157-bd0f-b26785f0f9fe": {
+      "ProjectGuid": "22125904-63b6-4157-bd0f-b26785f0f9fe",
+      "DisplayName": "DIScopeVsTransientVsSingletonSample",
+      "ColorIndex": 1
+    },
+    "5388e7d1-f00e-4576-8da1-0fb9daa86deb": {
+      "ProjectGuid": "5388e7d1-f00e-4576-8da1-0fb9daa86deb",
+      "DisplayName": "ASPNETMVCWithAutofacSample",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

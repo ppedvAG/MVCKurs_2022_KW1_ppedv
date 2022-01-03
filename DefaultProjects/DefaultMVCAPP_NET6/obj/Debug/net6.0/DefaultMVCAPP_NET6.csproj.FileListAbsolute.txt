@@ -232,3 +232,5 @@ C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6\obj\
 C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6\obj\Debug\net6.0\DefaultMVCAPP_NET6.genruntimeconfig.cache
 C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6\bin\Debug\net6.0\Array.Development.json
 C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6\bin\Debug\net6.0\Array.json
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6\bin\Debug\net6.0\GameSettings.Development.json
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6\bin\Debug\net6.0\GameSettings.json

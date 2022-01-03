@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6ffda7f4-e27a-4799-bc6b-03c8afeb5e90": {
+      "ProjectGuid": "6ffda7f4-e27a-4799-bc6b-03c8afeb5e90",
+      "DisplayName": "DefaultMVCAPP_NET5",
+      "ColorIndex": 0
+    },
+    "ede468e8-1f58-4140-b19c-045aeb6c677a": {
+      "ProjectGuid": "ede468e8-1f58-4140-b19c-045aeb6c677a",
+      "DisplayName": "DefaultMVCAPP_NET6",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9a2f799f-189d-420c-9cdc-5734eada52ee": {
+      "ProjectGuid": "9a2f799f-189d-420c-9cdc-5734eada52ee",
+      "DisplayName": "FAQ",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

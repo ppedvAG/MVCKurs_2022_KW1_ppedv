@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lkx2PhIKOJqB/6qQIb9pN5vVl4OwsiQIsutWybqzpmrIcZS9BcG/5evLfWbdIzZI5S5ui79EdhFrYkAGeJ/BoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\MVCKurs_2022_KW1_ppedv\\DependencyInjectionsSamples\\ConsoleAppWithServiceCollectionServiceProvider\\ConsoleAppWithServiceCollectionServiceProvider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

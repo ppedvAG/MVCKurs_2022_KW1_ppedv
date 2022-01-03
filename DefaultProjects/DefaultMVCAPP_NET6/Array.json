@@ -1,11 +1,11 @@
 {
   "array": {
     "entries": {
-      "0": "value00",
-      "1": "value10",
-      "2": "value20",
-      "4": "value40",
-      "5": "value50"
+      "DEF": "value10",
+      "E": "value20",
+      "EE": "value40",
+      "ABC": "value00",
+      "F1": "value50"
     }
   }
 }
