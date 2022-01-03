@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\bin\Debug\net6.0\CSharp10_Features.exe
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\bin\Debug\net6.0\CSharp10_Features.deps.json
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\bin\Debug\net6.0\CSharp10_Features.runtimeconfig.json
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\bin\Debug\net6.0\CSharp10_Features.dll
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\bin\Debug\net6.0\ref\CSharp10_Features.dll
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\bin\Debug\net6.0\CSharp10_Features.pdb
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.AssemblyInfo.cs
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.dll
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\ref\CSharp10_Features.dll
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.pdb
+C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\CSharp10_Features\CSharp10_Features\obj\Debug\net6.0\CSharp10_Features.genruntimeconfig.cache

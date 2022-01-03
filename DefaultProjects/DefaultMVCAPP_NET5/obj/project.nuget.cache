@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nvqjt2Dk8o/ME6XY6YD5faOMT3h7/WsHD0KWqZ1PA5zXCvdBdY3wIruGjpNRMTDBtiUMg9/ZzeD6+euf30wExg==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\MVCKurs_2022_KW1_ppedv\\DefaultProjects\\DefaultMVCAPP_NET5\\DefaultMVCAPP_NET5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
