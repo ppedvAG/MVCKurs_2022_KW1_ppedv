@@ -3,7 +3,9 @@
 TAG1:
 - [ ] Einführungs DI 
 - [ ] Dependency Injection / Seperation of Concerne (3 Stunden) 
-- [ ] Startup-Klasse
+- [ ] Startup-Klasse mit .NET 6 vergleichen 
+
+
 - [ ] IServiceCollection / ServiceProvider
 - [ ] Konfigurationen einlesen -> Dependency Injcetion + Konfigurationen
 - [ ] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess

@@ -5,7 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -40,6 +42,12 @@ namespace DefaultMVCAPP_NET5
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Zeige Environment Variablen 
+            foreach (DictionaryEntry de in Environment.GetEnvironmentVariables() )
+            {
+                Debug.WriteLine(de.Key);
+                Debug.WriteLine(de.Value);
+            }
 
             
             if (env.IsDevelopment())

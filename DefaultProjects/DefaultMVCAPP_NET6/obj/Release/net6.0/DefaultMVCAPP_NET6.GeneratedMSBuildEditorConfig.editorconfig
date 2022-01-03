@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\DefaultProjects\DefaultMVCAPP_NET6
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/DefaultProjects/DefaultMVCAPP_NET6/Views/ConfigurationSample/DisplayAllProviders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblNhbXBsZVxEaXNwbGF5QWxsUHJvdmlkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/DefaultProjects/DefaultMVCAPP_NET6/Views/ConfigurationSample/DisplayEnvironmentVariables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblNhbXBsZVxEaXNwbGF5RW52aXJvbm1lbnRWYXJpYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/DefaultProjects/DefaultMVCAPP_NET6/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
