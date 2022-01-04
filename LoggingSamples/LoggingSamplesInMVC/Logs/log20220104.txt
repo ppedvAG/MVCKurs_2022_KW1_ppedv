@@ -1,0 +1,5 @@
+2022-01-04 09:44:57.959 +01:00 [INF] Sie besuchen die Index-Seite
+2022-01-04 09:45:11.077 +01:00 [INF] Sie besuchen die Index-Seite
+2022-01-04 09:45:11.704 +01:00 [INF] Sie besuchen die Privacy-Seite
+2022-01-04 09:45:12.994 +01:00 [INF] Sie besuchen die Index-Seite
+2022-01-04 09:45:14.021 +01:00 [INF] Sie besuchen die Privacy-Seite
