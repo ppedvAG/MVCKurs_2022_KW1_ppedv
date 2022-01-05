@@ -1,4 +1,5 @@
 ﻿using LabGuestBookApp.Data;
+using LabGuestBookApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +17,16 @@ namespace LabGuestBookApp.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _ctx.GuestBookEntries.ToListAsync());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Index(GuestBookEntry entry)
+        {
+            entry.CreatedAt = DateTime.Now;
+            _ctx.GuestBookEntries.Add(entry);
+            await _ctx.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
     }
 }

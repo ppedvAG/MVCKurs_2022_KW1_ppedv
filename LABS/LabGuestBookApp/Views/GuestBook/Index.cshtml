@@ -5,5 +5,44 @@
 
 <h1>Index</h1>
 
+<!-- GuestBook - Ausgabe  -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Message)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<!-- GuestBook - Eintrag Formular (entweder unterhalb oder in einer seperaten Seiten -->
 
 
+
+
+<form method="post" asp-action="Index">
+    <label asp-for="@Model.LastOrDefault().Message" class="control-label"></label>
+    <input asp-for="@Model.LastOrDefault().Message" class="form-control" />
+    <input type="submit" value="Create" class="btn btn-primary" />
+</form>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
