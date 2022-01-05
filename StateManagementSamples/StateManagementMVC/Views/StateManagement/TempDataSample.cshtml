@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "TempDataSample";
+
+    //string email = TempData["EmailAddress"].ToString(); //Wenn man hier die Daten abrufen = 1x benutzung = danach wird Eintrag in TempData gelöscht
+    //string id = TempData["Id"].ToString();
+    //TempData.Keep(); // Keep demarkiert ALLE Einträge in TempData, dass diese nicht geöscht werden
+}
+
+<h1>TempDataSample</h1>
+
+@*<p>@email</p>
+<p>@id</p>*@
+
+@TempData.Peek("EmailAddress");
+@TempData.Peek("Id");

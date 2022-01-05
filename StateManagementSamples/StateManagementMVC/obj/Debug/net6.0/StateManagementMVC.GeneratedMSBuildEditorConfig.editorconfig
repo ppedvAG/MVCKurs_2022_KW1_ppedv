@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StateManagementMVC
+build_property.RootNamespace = StateManagementMVC
+build_property.ProjectDir = C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\StateManagementSamples\StateManagementMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\MVCKurs_2022_KW1_ppedv\StateManagementSamples\StateManagementMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/SessionResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFNlc3Npb25SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/SessionStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFNlc3Npb25TdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/TempDataSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFRlbXBEYXRhU2FtcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/TempDataSecondSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFRlbXBEYXRhU2Vjb25kU2FtcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/TempDataThirdSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFRlbXBEYXRhVGhpcmRTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/ViewBagSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFZpZXdCYWdTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/StateManagement/ViewDataSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFZpZXdEYXRhU2FtcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/MVCKurs_2022_KW1_ppedv/StateManagementSamples/StateManagementMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c4pflcdxmw

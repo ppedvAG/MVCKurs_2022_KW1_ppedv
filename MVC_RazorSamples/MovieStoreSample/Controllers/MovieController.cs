@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -196,6 +197,35 @@ namespace MovieStoreSample.Controllers
 
         #endregion
 
+        [HttpPost]
+        public IActionResult Buy(int? id)
+        {
+            if (!id.HasValue)
+                return BadRequest(); //404 Fehler, wenn ID nicht vorhanden ist
+
+            if (HttpContext.Session.IsAvailable)
+            {
+                IList<int> idList = new List<int>();
+
+                //Wenn der Warenkorb vorhanden ist, gehe ich davon aus, dass ich gerade den zweiten, dritten.... Artikel in den Warenkorb lege 
+                if (HttpContext.Session.Keys.Contains("ShoppingCart"))
+                {
+                    //Wollen Artikel (Ids) aus Warenkorb auslesen
+                    string jsonIdList = HttpContext.Session.GetString("ShoppingCart");
+                    
+                    //bekommen eine Id-Liste mit allen vorhandenen Artikel im Warenkorb
+                    idList = JsonSerializer.Deserialize<List<int>>(jsonIdList);
+                }
+
+                idList.Add(id.Value);
+
+                string jsonString = JsonSerializer.Serialize(idList);
+                HttpContext.Session.SetString("ShoppingCart", jsonString);
+            }
+
+            return RedirectToAction(nameof(Index));
+
+        }
         private bool MovieExists(int id)
         {
             return _context.Movie.Any(e => e.Id == id);

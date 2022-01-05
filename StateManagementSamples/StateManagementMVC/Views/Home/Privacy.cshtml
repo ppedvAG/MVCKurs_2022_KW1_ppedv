@@ -1,0 +1,18 @@
+﻿
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+
+
+    int? lottozahlen = Context.Session.GetInt32("Lottozahlen");
+    string? name = Context.Session.GetString("Lottogewinner");
+
+
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<p>@lottozahlen</p>
+<p>@name</p>
+

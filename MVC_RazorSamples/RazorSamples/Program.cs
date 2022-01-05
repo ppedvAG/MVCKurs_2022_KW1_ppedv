@@ -1,6 +1,13 @@
-using RazorSamples.Services;
+﻿using RazorSamples.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RazorSamples.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<RazorSamplesContext>(options =>
+
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RazorSamplesContext")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
