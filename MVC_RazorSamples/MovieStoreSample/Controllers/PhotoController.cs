@@ -36,6 +36,13 @@ namespace MovieStoreSample.Controllers
             return View(bilder);
         }
 
+        public IActionResult FormattedPictureGallery()
+        {
+            string path = AppDomain.CurrentDomain.GetData("BildVerzeichnis") + @"\images";
+            string[] bilder = Directory.GetFiles(path);
+            return View(bilder);
+        }
+
 
     }
 }

@@ -16,34 +16,34 @@ TAG1:
 
 Tag2:
 Die Controller-Klasse (MVC)
-- [ ] Überblick über HTTPContext und Controller-Basisklasse
+- [x] Überblick über HTTPContext und Controller-Basisklasse
 - [x] Was ist GET und POST -Methoden
 - [x] QueryString bei Get-Methoden
-- [ ] Ein Formular mit mehren Buttons (Post-Methoden)
+- [x] Ein Formular mit mehren Buttons (Post-Methoden)
 - [x] Data Annotations 
 - [x] Validierung (clientseitig und serverseitig)
 - [x] Gehen Geldbeträge mit Komma?
-- [ ] Upload von Bilddateien + einfache Darstellung in einer Gallery
+- [x] Upload von Bilddateien + einfache Darstellung in einer Gallery
 
-- [ ] PartialView
+- [x] PartialView
   - [ ] PartialView with jQuery - Ajax Call
-- [ ] HTML-Helper
-- [ ] TagHelpers
+- [x] HTML-Helper
+- [x] TagHelpers
 
 
 
 Tag 3:
-- [ ] Übung Gästebuch (GET/POST) + EFCore(Model erstellen, DbContext-Klasse, Rollout auf DB)
+- [x] Übung Gästebuch (GET/POST) + EFCore(Model erstellen, DbContext-Klasse, Rollout auf DB)
 State-Management
-- [ ] ViewData////
-- [ ] ViewBag
-- [ ] TempData
-- [ ] Session-Handling -> Bauen einen Warenkorb (mit Artikel entfernen)
-
+- [x] ViewData////
+- [x] ViewBag
+- [x] TempData
+- [x] Session-Handling -> Bauen einen Warenkorb (mit Artikel entfernen)
+- [ ] Identity UI in ASP.NET Core MVC -> weitere UseCases zu PartialView
 
 - [ ] Tabelle Sortierung, Pagging, Filtern direkt mit EFCore 
 - [ ] ViewComponents & Localization -> Referenz Projekte anschauen
-- [ ] Identity UI in ASP.NET Core MVC -> weitere UseCases zu PartialView
+
 
 - Routing
 - [ ] Konventionelles Routing

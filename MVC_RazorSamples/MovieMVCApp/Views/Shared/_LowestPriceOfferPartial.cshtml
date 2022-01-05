@@ -1,0 +1,24 @@
+﻿@model IEnumerable<MovieMVCApp.Models.Movie>
+
+@{ 
+    Movie movieWithTheLowestPrice = null;
+    
+    // Wir ermitteln hier den günstigen Film, der in der gefilterten Liste angezeigt wird
+    if(Model.Any())
+    {
+        movieWithTheLowestPrice = Model.OrderBy(o => o.Price).First();
+    }
+}
+
+
+@if (movieWithTheLowestPrice != null)
+{ 
+    <p>Sonderangebot</p>
+
+    <div class="card" style="background-color:darkorange">
+        <div class="card-body">
+            <p>@movieWithTheLowestPrice.Title</p>
+            <p>@movieWithTheLowestPrice.Price</p>
+        </div>
+    </div>
+}

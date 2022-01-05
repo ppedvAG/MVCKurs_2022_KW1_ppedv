@@ -1,0 +1,119 @@
+﻿@model PaginatedList<Movie>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    string searchQuery = string.Empty;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Ein hat mehrere Eingabe-Felder + einen Submit-Button -->
+<form asp-controller="Movie" asp-action="Index" method="get">
+    <p>Title: <input type="text" name="searchString" value='@searchQuery' /> </p>
+    <input type="submit" value="Filter" />
+</form>
+
+<partial name="_LowestPriceOfferPartial" />
+
+<form asp-controller="Movie" method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["TitleSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">@Html.DisplayNameFor(model => model[0].Title)</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DescriptionSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">@Html.DisplayNameFor(model => model[0].Description)</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["GenreTypeSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">@Html.DisplayNameFor(model => model[0].GenreType)</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">@Html.DisplayNameFor(model => model[0].Price)</a>
+
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].IMDBRating)
+                </th>
+                <th>@*Diese Spalte wird von Edit/Details/Delete verwendet*@</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GenreType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IMDBRating)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                    <td>
+                        <a asp-action="Buy" asp-route-id="@item.Id">Buy</a> |
+                        <button asp-controller="Movie" asp-action="Buy" asp-route-id="@item.Id">Buy</button>
+                        <button asp-controller="Movie" asp-action="Wish" asp-route-id="@item.Id">Wish</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    @{
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @nextDisabled">
+        Next
+    </a>
+</form>
+
+
+
+<button type="button" id="button1">Load Partial View</button>
+<div id="div1"></div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                $("#div1").load("/Movie/GetPartial");
+            });
+        });
+    </script>
+}

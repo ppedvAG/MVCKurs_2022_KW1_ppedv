@@ -67,6 +67,7 @@ namespace MovieStoreSample.Controllers
 
         #region Create-Seite
         // GET: Movie/Create        -> wird benötigt um das leere Formular anzuzeigen 
+        [HttpGet("/movie/create")]
         public IActionResult Create()
         {
             return View(); //Leeres Formular hat keine Daten...daher View()
@@ -75,7 +76,7 @@ namespace MovieStoreSample.Controllers
         // POST: Movie/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("/movie/create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Description,Price,ReleaseYear,Genre")] Movie movie) //Model-Binding oder Parameter-Binder
         {
@@ -197,7 +198,7 @@ namespace MovieStoreSample.Controllers
 
         #endregion
 
-        [HttpPost]
+        [HttpPost("/movie/buy/{id}")]
         public IActionResult Buy(int? id)
         {
             if (!id.HasValue)

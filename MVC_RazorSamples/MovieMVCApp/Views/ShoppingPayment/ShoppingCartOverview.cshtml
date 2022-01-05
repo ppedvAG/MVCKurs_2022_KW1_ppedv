@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Movie>
+@{
+    ViewData["Title"] = "ShoppingCartOverview";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ShoppingCartOverview</h1>
+
+@if (Model.Count() != 0)
+{
+    <form asp-controller="Shopping Payment" method="post">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Title)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.GenreType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.GenreType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @*<button class="btn-danger" asp-action="Delete" asp-route="@item.Id" type="submit">-</button>*@
+                            <button class="btn-dark" asp-action="Delete" asp-route-id="@item.Id" type="submit">-</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+
+
+    <a class="nav-link text-dark" id="register" asp-action="Payment">Zur Kasse</a>
+}
+else
+{
+    <h5>Es befinden sich keine Artikel im Warenkorb</h5>
+}

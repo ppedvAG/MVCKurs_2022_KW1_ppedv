@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h1>Pay</h1>
+
+
+
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <ul>
+        <li>Pay Pal</li>
+        <li>Klara</li>
+    </ul>
+    //Auflisten aller Produkte (Artikelnr + Anzahl) 
+    //Gesamtsumme 
+}
+else
+{
+    <p>Bitte loggen Sie sich ein, bevor Sie den Kauf abschließen</p>
+}
+
+
+
