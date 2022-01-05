@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "edd2184b-250a-4d4f-867c-9dde56afbf53": {
+      "ProjectGuid": "edd2184b-250a-4d4f-867c-9dde56afbf53",
+      "DisplayName": "RazorSamples",
+      "ColorIndex": 0
+    },
+    "a283c999-8d39-424e-bdc0-d4c0dc9ca1d5": {
+      "ProjectGuid": "a283c999-8d39-424e-bdc0-d4c0dc9ca1d5",
+      "DisplayName": "RazorPagesDefaultProject",
+      "ColorIndex": 1
+    },
+    "c4b84251-b099-4bee-a0a0-684eed5ef4bf": {
+      "ProjectGuid": "c4b84251-b099-4bee-a0a0-684eed5ef4bf",
+      "DisplayName": "MovieStoreSample",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "78e9940e-c97b-4539-9a23-e87132e22a0d": {
+      "ProjectGuid": "78e9940e-c97b-4539-9a23-e87132e22a0d",
+      "DisplayName": "DefaultWebAPI",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
